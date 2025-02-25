@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>多笔记记事本</title>
+    <link rel="stylesheet" href="note.css">
+</head>
+<body>
+    <div class="notepad-container">
+        <h1>多笔记记事本</h1>
+        <textarea id="notepad" placeholder="在这里输入内容..."></textarea>
+        <div class="buttons">
+            <button id="saveBtn">保存笔记</button>
+            <button id="clearBtn">清空当前笔记</button>
+            <button id="newNoteBtn">新建笔记</button>
+        </div>
+        <div class="notes-list">
+            <h2>笔记列表</h2>
+            <ul id="notesList"></ul>
+        </div>
+        <p id="message"></p>
+    </div>
+    <script src="note.js"></script>
+</body>
+</html>

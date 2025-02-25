@@ -1,0 +1,128 @@
+/*清除默认边距*/
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/*整个网页背景图片*/
+body{
+    background: url(../image/chun.jpg);
+}
+
+.header{
+    margin-top: 15px;
+}
+
+/*语言条样式*/
+.language {
+    width: 100%;
+    height: 35px;
+    background-color: #FFFBEF;
+}
+
+.language>ul{
+    margin-left: 100px;
+}
+.language>ul>li{
+    height: 70px;
+    padding: 0 30px;
+    float: left;
+    list-style: none;
+}
+.language>ul>li>a{
+    line-height: 35px;
+}
+
+/*导航条样式*/
+.nav {
+    width: 100%;
+    height: 70px;
+    background-color: #DAEAFF;
+}
+
+/*清除a标签默认样式*/
+a{
+    text-decoration: none;
+    color: #557195
+}
+
+/*导航条部分*/
+.nav>ul{
+    margin-left: 500px;
+}
+.nav>ul>li{
+    height: 70px;
+    padding: 0 30px;
+    float: left;
+    list-style: none;
+}
+
+.nav>ul>li>a{
+    
+    line-height: 70px;
+}
+
+/*版心部分*/
+.container{
+    width: 80%;
+    height: 600px;
+    background-color: rgba(184, 95, 95, 0.2);
+
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+.container>.top1{
+    width: 100%;
+    height: 320px;
+    background-color: rgba(100, 132, 190, 0.2);
+}
+
+.top1>.left{
+    width: 218px;
+    height: 100%;
+    background-color: rgba(166, 171, 83, 0.2);
+    float: left;
+}
+
+.top1>.center{
+    width: 690px;
+    height: 100%;
+    background-color: rgba(95, 184, 101, 0.2);
+    float: left;
+}
+
+
+/*天气查询*/
+.positioned-image {
+    width: 50px;
+    height: 50px;
+    position: absolute; /* 使用绝对定位 */
+    top: 500px; /* 距离顶部50px */
+    right: 200px; /* 距离左侧100px */
+    cursor: pointer; /* 鼠标悬停时显示手型指针 */
+}
+
+
+/*日期和时间*/
+.time-container {
+    position: absolute; /* 使用绝对定位 */
+    top: 200px; /* 距离顶部50px */
+    left: 200px; /* 距离左侧100px */
+    font-size: 24px;
+    font-weight: bold;
+}
+.date {
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+/*记事本*/
+.note-image {
+    width: 50px;
+    height: 50px;
+    position: absolute; /* 使用绝对定位 */
+    top: 500px; /* 距离顶部50px */
+    right: 300px; /* 距离右侧100px */
+    cursor: pointer; /* 鼠标悬停时显示手型指针 */
+}
